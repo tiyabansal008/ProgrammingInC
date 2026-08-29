@@ -1,12 +1,27 @@
-/*******************************************
-Statement - Print Factorial of a no. input by user
-Programmer - Tiya Bansal
-Written For - Programming lab (1st Sem)
-********************************************/
-
 #include <stdio.h>
 int main()
 {
+    int a,i,fact=1;
+    printf("\nENTER NO. FOR FACTORIAL:");
+    scanf("%d",&a);
+    
+    if (a<0)
+    {
+        printf("\nNO. ENTERED IS NEGATIVE");
+    }
+    else if (a==0)
+    {
+        printf("\nFACTORIAL = 1");
+    }
+    else
+    {
+        for(i=1;i<=a;i++)
+        {
+            fact = fact*i;
+        }
+        printf("\nFACTORIAL = %d",fact);
+    }
+        
 
 
 }
