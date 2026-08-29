@@ -1,3 +1,9 @@
+/*******************************************
+Statement - Calculate sum, product,difference and remainder of two no.s 	    entered by user 
+Programmer - Tiya Bansal
+Written For - Programming lab (1st Sem)
+********************************************/
+
 #include <stdio.h>
 int main()
 {
