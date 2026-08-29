@@ -1,5 +1,5 @@
 /*******************************************
-Statement - Print Hello World
+Statement - Print Factorial of a no. input by user
 Programmer - Tiya Bansal
 Written For - Programming lab (1st Sem)
 ********************************************/
