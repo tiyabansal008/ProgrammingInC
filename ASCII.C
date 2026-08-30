@@ -1,9 +1,10 @@
 #include <stdio.h>
-int main{
+int main(){
 	char ch;
 	printf("\nENTER THE CHARACTER :");
 	scanf("%c",&ch);
-	printf("\n THE ASCII VALUE OF %c IS %d",ch,ch);
+	printf("\nTHE ASCII VALUE OF %c IS %d",ch,ch);
+	printf("\n\nTIYA BANSAL S3-52");
 	return 0;
 
 }

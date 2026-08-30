@@ -21,7 +21,8 @@ int main()
         }
         printf("\nFACTORIAL = %d",fact);
     }
-        
+    printf("\n\nTIYA BANSAL S3-52");
+    return 0;
 
 
 }

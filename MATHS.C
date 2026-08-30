@@ -18,7 +18,8 @@ int main()
 	prod=a*b;
 	rem=a%b;
 	printf("\n SUM = %d: DIFFERENCE = %d: PRODUCT = %d: REMAINDER = %d",sum,diff,prod,rem);
-	return 0 ;
+	printf("\n\nTIYA BANSAL S3-52");
+        return 0 ;
 
 
 
