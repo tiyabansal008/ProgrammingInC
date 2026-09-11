@@ -1,20 +1,18 @@
 #include <stdio.h>
 int main()
 {
-	int num,rev,org,rem ;
-	printf("\nENTER NUMBER:");
+	int num,first_digit,last_digit ;
+	printf("\nENTER A THREE DIGIT NUMBER:");
 	scanf("%d",&num);
-	org=num;
-	while(num!=0){
-		rem=num%10;
-		rev=rev*10+rem;
-		num=num/10;
-	}
-	if(rev==org)
-	printf("\nNO. ENTERED IS PALINDROME");
+	first_digit = num/100;
+	last_digit = num%10;
+	if(first_digit==last_digit)
+	printf("\nNUMBER ENTERED IS PALINDROME");
 	else
-	printf("\nNO. ENTERED IS NOT PALINDROME");
+	printf("\nNUMBER ENTERED IS NOT PALINDROME");
 
 
+
+	printf("\nTIYA BANSAL S3-52");
 	return 0;
 }
