@@ -1,13 +1,15 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
-	char num[3];
-	int i=0;
-	printf("ENTER THREE DIGIT NUMBER:");
+	char num[10];
+	int i=0,len;
+	printf("ENTER A NUMBER:");
 	scanf("%s",&num);
 	printf("\n");
-	for (i=0;i<3;i++){
+	len=strlen(num);
+	for (i=0;i<len;i++){
 		switch (num[i]){
 			case '0':
 			printf("ZERO ");
